@@ -1,0 +1,18 @@
+{
+    "name": "jure/dotenv",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jure\\Dotnev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jure",
+            "email": "juresarac98@jagaad.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

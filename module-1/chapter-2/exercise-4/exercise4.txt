@@ -1,0 +1,23 @@
+Asumming that you have made some changes to the 'my-feature' branch and have not committed them yet, 
+you can use the following commnands to switch to the 'release-v2' branch, make a qucik fic,
+commit the changes, and then switch back to the 'my-feature' branch
+Steps:
+1. Save the changes in current branch:
+	git stash save "Temporary save my-feature changes"
+2. Switch to the 'release-v2' branch:
+	git checkout release-v2
+3. Make the fix and commit the changes:
+	git add .
+	git commit -m 'Qucik fix for release-v2'
+4. Switch to my-feature branch:
+	git checkout my-feature
+5. Reatrive the changes:
+	git stach pop
+These commands will save your changes on the my-feature branch temporarily, 
+switch to the release-v2 branch, 
+make the quick fix, commit the changes, switch back to the my-feature branch, 
+and then retrieve the changes that you stashed earlier so you can continue working where you left off.
+
+
+
+

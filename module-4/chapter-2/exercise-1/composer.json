@@ -1,0 +1,19 @@
+{
+    "name": "jure/lesson1",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jure\\Lesson1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jure",
+            "email": "juresarac98@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "fzaninotto/faker": "^1.5"
+    }
+}
